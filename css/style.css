@@ -28,11 +28,11 @@
 
 .information {
   padding: 96px 0;
-  background-color: #001e62;
+  background-color: #d7cdb6;
 }
 
 .information h2 {
-  color: #fff;
+  color: #000;
 }
 
 .information .content-tab {
@@ -44,7 +44,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background: #daaa00;
+  background: #D8B152;
   border-radius: 50%;
   transform-origin: center;
   transform: translateX(-50%) scale(1);
@@ -54,12 +54,12 @@
 .information .nav-link.active .circle-btn,
 .information button:hover .circle-btn {
   transform: scale(2);
-  background: #00c7b1;
+  background: #987d3b;
   transition: all .5s cubic-bezier(.2, 0, .2, 1);
 }
 
 .information .nav-item h4 {
-  color: #fff;
+  color: #000;
   width: 200px;
 }
 
@@ -74,16 +74,20 @@
 }
 
 .information .tab-content a {
-  color: #fff;
+  color: #000;
+}
+
+.information .tab-content i{
+  color: #D8B152;
 }
 
 .information .tab-content {
   height: 530px;
   width: 530px;
-  background: #001442;
+  background: #fff;
   border-radius: 50%;
-  border: 1px solid #daaa00;
-  color: #fff;
+  border: 1px solid #D8B152;
+  color: #000;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -101,14 +105,14 @@
   content: '';
   height: 100%;
   width: 100%;
-  border: 1px solid #daaa00;
+  border: 1px solid #D8B152;
   display: block;
   animation: 1.5s .1s transition-1 infinite linear;
   animation-play-state: running;
   border-radius: 50%;
   position: absolute;
   top: 0;
-  box-shadow: 0 0 2px #daaa00;
+  box-shadow: 0 0 2px #55492b;
   opacity: 0;
 }
 
